@@ -105,10 +105,10 @@ requirements.txt
 
 ## 📸 Screenshots
 
-Homescreen
+**Homescreen**
 ![image](./img/home.png)
 
-Prediction Result
+**Prediction Result**
 ![image](./img/prediction.png)
 
 ## 🤝 Contribution
