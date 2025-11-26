@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calorie Expenditure Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+  <h1>Calorie Expenditure Prediction</h1>
+
+  <form action="/predict" method="post" novalidate>
+    <label for="Age">Age:</label>
+    <input type="number" name="Age" id="Age" min="1" step="1" required>
+
+    <label for="Sex">Sex:</label>
+    <select name="Sex" id="Sex" required>
+      <option value="" disabled selected>Select...</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <label for="Height">Height (cm):</label>
+    <input type="number" name="Height" id="Height" min="100" max="250" step="any" required>
+
+    <label for="Weight">Weight (kg):</label>
+    <input type="number" name="Weight" id="Weight" min="20" max="200" step="any" required>
+
+    <label for="Duration">Duration (min):</label>
+    <input type="number" name="Duration" id="Duration" min="1" max="300" step="any" required>
+
+    <label for="Heart_Rate">Heart Rate (bpm):</label>
+    <input type="number" name="Heart_Rate" id="Heart_Rate" min="40" max="220" step="any" required>
+
+    <label for="Body_Temp">Body Temp (°C):</label>
+    <input type="number" name="Body_Temp" id="Body_Temp" min="35" max="43" step="any" required>
+
+    <input type="submit" value="Predict">
+  </form>
+
+</body>
+</html>
