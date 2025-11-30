@@ -2,7 +2,7 @@
 
 This is a machine learning–powered web application developed using **Python**, **Flask**, and a tuned **XGBoostRegressor** model to predict **calorie expenditure** during physical activity.
 
-After training and tuning the regression model with XGBoostRegressor, the final optimized model is exported using Pickle and served through a backend built with Flask.
+After training and tuning the regression model with **XGBoostRegressor**, the final optimized model is exported using Pickle and served through a backend built with **Flask**.
 
 ## 🚀 Features
 
