@@ -8,7 +8,7 @@ After training and tuning the regression model with **XGBoostRegressor**, the fi
 
 - Predicts **calorie expenditure (continuous numeric value)** using health and activity indicators.
 - Built using a **tuned regression model** (XGBoostRegressor).
-- Interactive and clean web UI built using HTML/CSS powered frontend via Flask.
+- Interactive and clean web UI built using **HTML/CSS** powered frontend via **Flask**.
 - Includes multiple **engineered features** to improve prediction accuracy.
 - Uses a **pre-trained model** (best_xgbr_model_final.pkl).
 - Lightweight, fast, and deployable on any Python-supported machine.
